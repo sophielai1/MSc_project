@@ -1,0 +1,601 @@
+province,county,Chinese_name,name,lattitude,longitude
+Liaoning,Zhangwu,????,Woniushan,42.353386,122.701542
+Liaoning,Zhangwu,???,Hongshi,42.326816,122.712985
+Liaoning,Zhangwu,????,Shuangtuozi ,42.312877,122.745709
+Liaoning,Zhangwu,???,Dongliu,42.352934,122.753468
+Liaoning,Zhangwu,????,Xiadianzi ,42.323209,122.80051
+Liaoning,Zhangwu,????,Changgouyan ,42.380381,122.830111
+Liaoning,Zhangwu,????,Shuangshanzi ,42.358834,122.812636
+Liaoning,Zhangwu,???,Pingtai,42.360443,122.669141
+Liaoning,Zhangwu,????,Ximendong ,42.378131,122.711597
+Liaoning,Zhangwu,????,Taipinghe ,42.432083,122.687469
+Liaoning,Zhangwu,???,Lianjia ,42.398978,122.679096
+Liaoning,Zhangwu,????,Wanbao City ,42.39733,122.647169
+Liaoning,Zhangwu,????,Yaowobao ,42.422049,122.661967
+Liaoning,Zhangwu,???,Sangtun ,42.391969,122.716813
+Liaoning,Zhangwu,???,Donggou ,42.569354,122.727936
+Liaoning,Zhangwu,???,Leijia ,42.528493,122.760059
+Liaoning,Zhangwu,????,Pingdingshan ,42.516861,122.792622
+Liaoning,Zhangwu,???,Qiujia ,42.520371,122.771469
+Liaoning,Zhangwu,???,Yongan ,42.545443,122.800215
+Liaoning,Zhangwu,????,Aohuqi ,42.597933,122.743836
+Liaoning,Zhangwu,???,Xinsheng ,42.574429,122.813622
+Liaoning,Zhangwu,???,Paradise ,42.585962,122.778881
+Liaoning,Zhangwu,????,Baiyingao ,42.615618,122.812022
+Liaoning,Zhangwu,???,Minjia ,42.634236,122.743342
+Liaoning,Zhangwu,???,Shaokuo ,42.348393,122.579106
+Liaoning,Zhangwu,???,Wangjia ,42.65465,122.658033
+Liaoning,Zhangwu,???,Monghai ,42.547198,122.720802
+Liaoning,Zhangwu,????,Sijiazi ,42.346471,122.282099
+Liaoning,Zhangwu,????,Xintunzi ,42.25927,122.647378
+Liaoning,Zhangwu,????,red mountain ,42.421576,122.277872
+Liaoning,Zhangwu,????,Bajiazi ,42.287495,122.630125
+Liaoning,Zhangwu,?????,Dawujiazi ,42.320356,122.648014
+Liaoning,Zhangwu,???,Sanhe ,42.425763,122.611217
+Liaoning,Zhangwu,???,white mountain ,42.36065,122.601774
+Liaoning,Zhangwu,????,Changtuozi ,42.219664,122.578958
+Liaoning,Zhangwu,???,zhaojiacun,42.474888,122.530174
+Liaoning,Zhangwu,????,Xinglong Mountain ,42.435238,122.564806
+Liaoning,Zhangwu,???,Ximing ,42.602539,122.89046
+Liaoning,Zhangwu,???,Zaran ,42.571919,122.912999
+Liaoning,Zhangwu,???,Big Four ,42.566715,122.855517
+Liaoning,Zhangwu,???,Victory ,42.52975,122.891507
+Liaoning,Zhangwu,???,Dongliang ,42.621296,122.832725
+Liaoning,Zhangwu,???,Gongjia ,42.564609,122.951431
+Liaoning,Zhangwu,????,Fu Juchang ,42.635416,122.615547
+Liaoning,Zhangwu,???,Huanghua ,42.650323,122.621505
+Liaoning,Zhangwu,???,Hanjia ,42.563576,122.690541
+Liaoning,Zhangwu,???,Laihu ,42.571405,122.590986
+Liaoning,Zhangwu,???,Dade ,42.573291,122.629754
+Liaoning,Zhangwu,???,Guanjia ,42.55609,122.629041
+Liaoning,Zhangwu,????,Chashan ,42.392339,122.785216
+Liaoning,Zhangwu,????,Tuchengzi ,42.455614,122.758341
+Liaoning,Zhangwu,????,Haolibao ,42.441698,122.718473
+Liaoning,Zhangwu,????,Baiyin Huacun,42.479321,122.789866
+Liaoning,Zhangwu,????,Sandaogou ,42.423939,122.760352
+Liaoning,Zhangwu,????,Taiping Mountain ,42.374465,122.860158
+Liaoning,Zhangwu,????,Lama ,42.397035,122.857183
+Liaoning,Zhangwu,????,yaolinggangzi,42.439072,122.823232
+Liaoning,Zhangwu,???,Xingshan ,42.595219,122.197352
+Liaoning,Zhangwu,???,Suji ,42.485426,122.332438
+Liaoning,Zhangwu,???,Shuanglong ,42.547032,122.246981
+Liaoning,Fengcheng,???,East Street ,40.465417,124.087075
+Liaoning,Fengcheng,???,Chengdong ,40.473265,124.104407
+Liaoning,Fengcheng,???,West Street ,40.468977,124.074085
+Liaoning,Fengcheng,???,Beishan ,40.478865,124.079445
+Liaoning,Fengcheng,???,Xinmin ,40.489574,124.097553
+Liaoning,Fengcheng,????,Ertaizi ,40.505674,124.05429
+Liaoning,Fengcheng,???,Zhongxing ,40.542324,124.072551
+Liaoning,Fengcheng,???,Fine Breed ,40.441223,124.05557
+Liaoning,Fengcheng,????,Phoenix Mountain ,40.444418,124.078088
+Liaoning,Fengcheng,???,Okuma ,40.441411,124.163443
+Liaoning,Fengcheng,????,Laoye Temple ,40.37048,124.078982
+Liaoning,Fengcheng,????,big pear tree ,40.407801,123.969573
+Liaoning,Fengcheng,???,Erlong ,40.432226,124.029904
+Liaoning,Fengcheng,???,Longshan ,40.469012,124.03708
+Liaoning,Fengcheng,???,Zhangjia ,40.400648,124.048934
+Liaoning,Fengcheng,???,Toutai ,40.459635,124.047725
+Liaoning,Fengcheng,???,Bianmen ,40.356406,124.097538
+Liaoning,Fengcheng,???,people and s,40.330992,124.048748
+Liaoning,Fengcheng,???,Build the ,40.275014,124.018299
+Liaoning,Fengcheng,???,Big East ,40.31342,124.122667
+Liaoning,Fengcheng,???,soup and ,40.327961,124.158012
+Liaoning,Fengcheng,???,Bright ,40.347041,124.109363
+Liaoning,Fengcheng,???,Hejia ,40.369046,124.033578
+Liaoning,Fengcheng,???,Xinhua ,40.41744,124.18223
+Liaoning,Fengcheng,???,Jinjia ,40.417213,124.148933
+Liaoning,Fengcheng,????,Kouzili ,40.376444,124.141693
+Liaoning,Fengcheng,???,Xiejia ,40.215949,124.059175
+Liaoning,Fengcheng,???,Hongqi ,40.369332,123.876655
+Liaoning,Fengcheng,???,Chalu ,40.370028,123.900616
+Liaoning,Fengcheng,????,Xiaositai ,40.423245,123.926941
+Liaoning,Fengcheng,???,Zhonglin ,40.44773,123.855369
+Liaoning,Fengcheng,???,Baijia ,40.422311,123.849452
+Liaoning,Fengcheng,???,Daying ,40.41231,123.898071
+Liaoning,Fengcheng,???,zhaojiacun,40.388868,123.828417
+Liaoning,Fengcheng,???,Mojia ,40.295382,123.969212
+Liaoning,Fengcheng,???,Wangjia ,40.260894,123.842865
+Liaoning,Fengcheng,???,Houying ,40.31379,123.852143
+Liaoning,Fengcheng,???,Wujia ,40.323855,123.878279
+Liaoning,Fengcheng,???,Ping'an ,40.470248,124.17709
+Liaoning,Fengcheng,???,defend the ,40.479951,124.145023
+Liaoning,Fengcheng,????,shandonggou ,40.510832,124.126063
+Liaoning,Fengcheng,???,Butler ,40.55246,124.145148
+Liaoning,Fengcheng,???,Huangling ,40.513728,124.151769
+Liaoning,Fengcheng,???,armed ,40.633887,124.17585
+Liaoning,Fengcheng,???,Sanguan ,40.597633,124.244617
+Liaoning,Fengcheng,???,Ailu ,40.586384,124.279073
+Liaoning,Fengcheng,???,Paulin ,40.545967,124.304957
+Liaoning,Fengcheng,???,Yanjia ,40.532941,124.207514
+Liaoning,Fengcheng,???,Xinxing ,40.402984,124.303148
+Liaoning,Fengcheng,???,Fangmu ,40.424534,124.36374
+Liaoning,Fengcheng,???,grand ,40.392112,124.379445
+Liaoning,Fengcheng,???,Tucheng ,40.370726,124.41716
+Liaoning,Fengcheng,???,Xianjia ,40.468195,124.400025
+Liaoning,Fengcheng,???,Minsheng ,40.460626,124.353195
+Liaoning,Fengcheng,???,Rongjia ,40.807025,124.464343
+Liaoning,Fengcheng,???,Nishikuma ,40.789414,124.453181
+Liaoning,Fengcheng,???,Yijia ,40.777745,124.39733
+Liaoning,Fengcheng,???,Sun ,40.742431,124.4087
+Liaoning,Fengcheng,???,Kangjia ,40.564667,124.349633
+Shanxi,Gaoping,???,Shicheng ,40.642843,124.322866
+Shanxi,Gaoping,??,Fenghe,35.809612,112.937732
+Shanxi,Gaoping,??,South Lee,35.825058,112.963481
+Shanxi,Gaoping,??,shop,35.822473,112.952827
+Shanxi,Gaoping,??,Qinzhuang,35.692814,113.132757
+Shanxi,Gaoping,??,Long Canal,35.777368,112.938373
+Shanxi,Gaoping,??,Seongnam,35.790621,112.931445
+Shanxi,Gaoping,???,Southwest ,35.783499,112.962609
+Shanxi,Gaoping,??,Pangcun,35.75588,112.950664
+Shanxi,Gaoping,??,Park ,35.759479,112.925008
+Shanxi,Gaoping,??,Bei Chen,35.752674,112.898772
+Shanxi,Gaoping,??,Zhaozhuang,35.946368,112.859962
+Shanxi,Gaoping,??,Nan Chen,35.740025,112.891688
+Shanxi,Gaoping,??,Feng Zhuang,35.847318,113.143625
+Shanxi,Gaoping,???,Nanwangzhuang,35.82196,112.905784
+Shanxi,Gaoping,???,Wang Henan,35.823239,112.888315
+Shanxi,Gaoping,??,hexi,35.779093,112.776993
+Shanxi,Gaoping,??,Jae Lee,35.736457,112.927214
+Shanxi,Gaoping,??,Jiaohe,35.696398,112.927724
+Shanxi,Gaoping,??,Senjing,35.725966,112.963141
+Shanxi,Gaoping,??,Guanzhuang,35.742201,112.976066
+Shanxi,Gaoping,??,cow ,35.693617,112.953034
+Shanxi,Gaoping,??,Dingbi,35.699529,113.040978
+Shanxi,Gaoping,???,Simon,35.714455,112.986243
+Shanxi,Gaoping,??,Midong,35.769875,112.987162
+Shanxi,Gaoping,??,Missy,35.773107,112.980176
+Shanxi,Gaoping,??,Kawaki,35.767278,112.960474
+Shanxi,Gaoping,???,nanzhuzhuang,35.767304,113.020815
+Shanxi,Gaoping,??,Xiaoyi,35.736307,113.009798
+Shanxi,Gaoping,??,Yunxi,35.805956,113.038389
+Shanxi,Gaoping,???,Southeast ,35.783888,113.038955
+Shanxi,Gaoping,??,Wangcun,35.860573,113.039968
+Shanxi,Gaoping,??,weizhuang,35.885075,113.042692
+Shanxi,Gaoping,??,Guozhuang,35.833384,113.100851
+Shanxi,Gaoping,??,Fudi,35.831247,113.132927
+Shanxi,Gaoping,??,wandering north,35.851413,112.990716
+Shanxi,Gaoping,??,South River,35.874366,113.033034
+Shanxi,Gaoping,??,Chi Xiang,35.869941,112.997717
+Shanxi,Gaoping,???,Xiangshuipo,35.824114,112.980185
+Shanxi,Gaoping,??,Xingcun,35.838383,112.957003
+Shanxi,Gaoping,???,xilizhuang,35.873474,112.944918
+Shanxi,Gaoping,??,beizhuang,35.843001,112.957984
+Shanxi,Gaoping,???,Sanjianan,35.855323,112.973616
+Shanxi,Gaoping,??,Qiu ,35.898181,112.964223
+Shanxi,Gaoping,??,mouth rules,35.894706,112.998399
+Shanxi,Gaoping,??,Kangying,35.751913,112.863499
+Shanxi,Gaoping,??,Macun,35.725685,112.815821
+Shanxi,Gaoping,??,ancient ,35.721108,112.788558
+Shanxi,Gaoping,??,East House,35.705701,112.822876
+Shanxi,Gaoping,??,big week,35.700247,112.797792
+Shanxi,Gaoping,??,Eastern Zhou,35.696685,112.804827
+Shanxi,Gaoping,? ? ,Eternal record,35.859567,112.904695
+Shanxi,Gaoping,??,Changping,35.90368,112.865812
+Shanxi,Gaoping,??,Busan,35.898659,112.830338
+Shanxi,Gaoping,??,dig a mountain,35.924058,112.861248
+Shanxi,Gaoping,??,Shi Shan,35.965576,112.864113
+Shanxi,Gaoping,???,Onogawa,35.796053,112.856672
+Shanxi,Gaoping,??,donggou,35.80083,112.876348
+Shanxi,Gaoping,??,Nanyang,35.818887,112.825865
+Shanxi,Gaoping,??,beiyang,35.823436,112.823928
+Shanxi,Gaoping,???,Qiaojiagou,35.824766,112.843536
+Shanxi,Changzhi,???,West Pool ,36.024164,113.131415
+Shanxi,Changzhi,???,Xiaohe ,36.040289,113.136523
+Shanxi,Changzhi,????,Xigu County ,36.072652,113.135842
+Shanxi,Changzhi,???,Hetou ,36.190975,113.153417
+Shanxi,Changzhi,???,Songbi ,36.032837,113.151218
+Shanxi,Changzhi,???,Zhounan ,36.06314,113.126673
+Shanxi,Changzhi,????,Beixianquan ,36.048944,113.115517
+Shanxi,Changzhi,???,Yitang ,36.119086,113.043633
+Shanxi,Changzhi,???,Kanji ,36.12083,113.027287
+Shanxi,Changzhi,???,Xinzhuang ,36.233693,112.817938
+Shanxi,Changzhi,???,Wang Dongcun,36.121083,113.067999
+Shanxi,Changzhi,???,Sima ,36.131746,113.058979
+Shanxi,Changzhi,?  ?,Feng ,36.127778,113.063098
+Shanxi,Changzhi,???,Xijia ,36.107178,113.101399
+Shanxi,Changzhi,???,Dongjia ,36.108393,113.108059
+Shanxi,Changzhi,?????,Xishenjiazhuang ,36.104399,113.069872
+Shanxi,Changzhi,???,Nam Dong ,36.097992,113.100504
+Shanxi,Changzhi,???,Nanzhuang ,36.084501,113.087213
+Shanxi,Changzhi,???,Haodian ,36.119241,113.078575
+Shanxi,Changzhi,????,Yuanjiazhuang ,36.137762,113.101146
+Shanxi,Changzhi,????,Haojiazhuang ,36.168414,113.067125
+Shanxi,Changzhi,???,Xinyi ,36.149926,113.088394
+Shanxi,Changzhi,???,Anseong ,36.146084,113.065799
+Shanxi,Changzhi,????,Renjiazhuang ,36.142617,113.050194
+Shanxi,Changzhi,???,Wangtong ,36.156543,113.057217
+Shanxi,Changzhi,???,Shangqin ,36.170923,113.040274
+Shanxi,Changzhi,?  ?,Wu ,36.1633,113.03426
+Shanxi,Changzhi,???,Gaohe ,36.155609,113.020068
+Shanxi,Changzhi,?  ?,high ,36.161973,113.013468
+Shanxi,Changzhi,???,Xiaosong ,36.125982,113.019413
+Shanxi,Changzhi,???,Liling ,36.069656,113.056986
+Shanxi,Changzhi,???,Jingfang ,36.054451,113.082154
+Shanxi,Changzhi,???,Han Chuan ,36.035242,113.089607
+Shanxi,Changzhi,???,Willow ,36.082083,113.057641
+Shanxi,Changzhi,???,Dongcheng ,36.088348,113.047247
+Shanxi,Changzhi,?  ?,Bao ,36.183919,112.997992
+Shanxi,Changzhi,???,Temple ,36.088572,113.076993
+Shanxi,Changzhi,???,Bayi ,35.971036,113.033169
+Shanxi,Changzhi,???,Longshan ,35.976681,113.060142
+Shanxi,Changzhi,???,Dongping ,35.985474,113.043963
+Shanxi,Changzhi,???,Guandao ,36.009155,113.045455
+Shanxi,Changzhi,???,West Hachimura,35.979509,113.019432
+Shanxi,Changzhi,???,Shizhuang ,35.952423,112.994792
+Shanxi,Changzhi,???,Liujia ,36.060628,113.007347
+Shanxi,Changzhi,?  ?,Upper ,36.091476,113.001271
+Shanxi,Changzhi,???,Beicheng ,36.082244,113.010768
+Shanxi,Changzhi,? ?,Shuo ,36.047851,112.995497
+Shanxi,Changzhi,???,Nancheng ,36.077971,113.009269
+Shanxi,Changzhi,???,Southern Song ,35.925717,113.073017
+Shanxi,Changzhi,?  ?,Zhao ,35.943341,113.06267
+Shanxi,Changzhi,???,Donghe ,36.034757,113.034717
+Shanxi,Changzhi,???,Zhonghe ,36.038319,113.024546
+Shanxi,Changzhi,???,Nanhe ,36.023496,113.019668
+Shanxi,Changzhi,???,caojiagou,36.025169,113.054658
+Shanxi,Changzhi,???,Xincheng ,36.019633,113.036245
+Shanxi,Changzhi,???,Yincheng ,35.96542,113.127512
+Shanxi,Changzhi,???,Yokogawa ,35.947978,113.151856
+Shanxi,Changzhi,???,Juzhai ,35.970174,113.151249
+Shanxi,Changzhi,????,Shitanyu ,35.95016,113.137169
+Shanxi,Changzhi,????,Sangzi First ,35.967755,113.113335
+Hebei,Luquan,??,zhengzhuang,38.071593,114.339885
+Hebei,Luquan,???,Dali Zhuang,38.057994,114.339275
+Hebei,Luquan,???,Beixincheng,38.096129,114.384171
+Hebei,Luquan,???,Nanhaishan,38.084324,114.353016
+Hebei,Luquan,???,North Copper Metallurgy,37.976258,114.384132
+Hebei,Luquan,???,West Copper Metallurgy,37.972793,114.376386
+Hebei,Luquan,???,Nanganzi,37.953947,114.399067
+Hebei,Luquan,???,north old town,37.952611,114.357317
+Hebei,Luquan,???,Nangu Town,37.942231,114.365916
+Hebei,Luquan,????,Yongbi North Street,37.990446,114.442432
+Hebei,Luquan,????,Yongbi West Street,37.988101,114.433371
+Hebei,Luquan,???,Nandu ,38.012954,114.424044
+Hebei,Luquan,???,lotus camp,37.974731,114.428184
+Hebei,Luquan,???,South Lizhuang,37.961358,114.432347
+Hebei,Luquan,????,Dongying East Street,37.945296,114.475141
+Hebei,Luquan,???,Sijiazhuang,37.948368,114.462115
+Hebei,Luquan,???,Xilonggui,37.946722,114.422318
+Hebei,Luquan,???,Nanlonggui,37.947426,114.434684
+Hebei,Luquan,????,Gaoqian East Street,37.956566,114.499089
+Hebei,Luquan,????,Gaoqian North Street,37.958226,114.494806
+Hebei,Luquan,??,table head,38.025048,114.396298
+Hebei,Luquan,???,Da Song Building,37.999314,114.395439
+Hebei,Luquan,??,nanzhuang,38.018369,114.375267
+Hebei,Luquan,??,xinzhuang,38.033009,114.344793
+Hebei,Luquan,??,Zhongzhuang,37.99585,114.358237
+Hebei,Luquan,??,Yan Tong,38.171675,114.37559
+Hebei,Luquan,???,Beixuying,38.179673,114.362744
+Hebei,Luquan,??,Zhang Bao,38.212238,114.342288
+Hebei,Luquan,???,beihuzhuang,38.189694,114.325313
+Hebei,Luquan,??,Qinzhuang,38.213784,114.358931
+Hebei,Luquan,??,Yian,38.194658,114.290556
+Hebei,Luquan,??,Niushan,38.192058,114.276438
+Hebei,Luquan,????,Dongjiaodong team,38.199129,114.235891
+Hebei,Luquan,??,Ma Shan,38.223951,114.285032
+Hebei,Luquan,???,xibaozhuang,38.221104,114.255666
+Hebei,Luquan,????,Dongjiao Squadron,38.201423,114.2289
+Hebei,Luquan,????,East Jiaoxi,38.201313,114.225754
+Hebei,Luquan,???,Beibaisha,38.223001,114.322599
+Hebei,Luquan,??,Gu Xian,38.236748,114.324954
+Hebei,Luquan,??,Tamura,38.250732,114.345459
+Hebei,Luquan,??,Kamiro,38.264123,114.377226
+Hebei,Luquan,??,big river,38.140817,114.394047
+Hebei,Luquan,?????,Chengdong Bridge East Team,38.123822,114.405425
+Hebei,Luquan,??,Huozhai,38.124152,114.386639
+Hebei,Luquan,???,South Gucheng,38.151853,114.358751
+Hebei,Luquan,???,north old city,38.15847,114.350505
+Hebei,Luquan,??,Shuangmiao,38.130138,114.349908
+Hebei,Luquan,??,Shaoying,38.136764,114.368647
+Hebei,Luquan,???,shanyin ,37.922017,114.42488
+Hebei,Luquan,???,xiguozhuang,37.92353,114.399274
+Hebei,Luquan,????,Shannan Zhangzhuang,37.900724,114.379986
+Hebei,Luquan,??,Shangzhai,37.944369,114.328164
+Hebei,Luquan,??,nanzhai,37.933509,114.337968
+Hebei,Luquan,??,beizhai,37.955676,114.327845
+Hebei,Luquan,???,South New Town,38.091054,114.376554
+Hebei,Luquan,??,after applying,38.072398,114.359462
+Hebei,Luquan,???,Fujiazhuang,38.074927,114.347984
+Hebei,Luquan,??,Ishii,38.110808,114.304357
+Hebei,Luquan,??,plank road,38.119732,114.242336
+Hebei,Luquan,??,Zhangzhuang,38.13344,114.300179
+Hebei,Anguo,???,Xi Wangqi,38.373895,115.354741
+Hebei,Anguo,???,Beiliu,38.353926,115.409106
+Hebei,Anguo,??,West Street,38.378017,115.424944
+Hebei,Anguo,??,North Street,38.388492,115.303437
+Hebei,Anguo,??,North Fort,38.396803,115.404317
+Hebei,Anguo,??,Zhengcun,38.378943,115.233484
+Hebei,Anguo,??,beidian,38.37619,115.20533
+Hebei,Anguo,???,Xiloudi,38.408879,115.232977
+Hebei,Anguo,???,Nishi Akimoto,38.364933,115.220971
+Hebei,Anguo,???,Soochow ,38.340665,115.255261
+Hebei,Anguo,??,Li He,38.355051,115.255784
+Hebei,Anguo,???,beizhangcun,38.402894,115.23185
+Hebei,Anguo,??,High industry,38.278233,115.345984
+Hebei,Anguo,??,Bafang,38.310203,115.252292
+Hebei,Anguo,???,northeast horse,38.266253,115.311389
+Hebei,Anguo,???,Northwest Horse,38.26665,115.302781
+Hebei,Anguo,???,South Loudi,38.280265,115.332574
+Hebei,Anguo,???,Wuren ,38.303465,115.341005
+Hebei,Anguo,??,Bong Bo,38.309778,115.316833
+Hebei,Anguo,??,Flow care,38.316822,115.332476
+Hebei,Anguo,???,Nanguo ,38.307785,115.367763
+Hebei,Anguo,??,Song Gu,38.292919,115.381993
+Hebei,Anguo,??,xiezhuang,38.382932,115.264473
+Hebei,Anguo,??,Dongchai,38.41614,115.244517
+Hebei,Anguo,??,Xingtang,38.358002,115.27151
+Hebei,Anguo,??,Yang Zhai,38.441852,115.293965
+Hebei,Anguo,??,Han ,38.456113,115.254623
+Hebei,Anguo,??,Dongfang,38.410159,115.277878
+Hebei,Anguo,??,Changzhuang,38.427354,115.279458
+Hebei,Anguo,??,Jizhuang,38.446739,115.325244
+Hebei,Anguo,??,Mendong,38.443245,115.376579
+Hebei,Anguo,??,Yancun,38.470424,115.3886
+Hebei,Anguo,??,silt ,38.462686,115.346357
+Hebei,Anguo,??,hexi,38.451767,115.362241
+Hebei,Anguo,???,West Falls,38.542979,115.332935
+Hebei,Anguo,???,Guobeizhuang,38.48521,115.328669
+Hebei,Anguo,???,East Buddha,38.529568,115.35012
+Hebei,Anguo,??,small camp,38.479287,115.345713
+Hebei,Anguo,??,big camp,38.487636,115.357499
+Hebei,Anguo,??,Louying,38.477224,115.362147
+Hebei,Anguo,??,Kangzhuang,38.478706,115.368988
+Hebei,Anguo,???,East Changshi,38.38333,115.319431
+Hebei,Anguo,??,Fu ,38.383686,115.292288
+Hebei,Anguo,?? ,Qu Causeway,38.432863,115.359672
+Hebei,Anguo,???,nanshizhuang,38.389778,115.350245
+Hebei,Anguo,???,Beiqigong,38.422316,115.347911
+Hebei,Anguo,??,liuzhuang,38.405414,115.334844
+Hebei,Anguo,??,Shaw Street,38.339416,115.370763
+Hebei,Anguo,???,North Chapter,38.333612,115.339471
+Hebei,Anguo,??,Xigu,38.362124,115.325033
+Hebei,Anguo,??,China Photo,38.481783,115.285937
+Hebei,Anguo,??,Mazhuang,38.374046,115.479061
+Hebei,Anguo,??,Yellow Terrace,38.510039,115.274472
+Hebei,Anguo,???,wazili,38.454279,115.285852
+Hebei,Anguo,???,South ,38.46919,115.31152
+Hebei,Anguo,??,small,38.483809,115.252537
+Hebei,Anguo,??,East knock,38.353191,115.443693
+Hebei,Anguo,??,road scene,38.407939,115.436212
+Hebei,Anguo,??,Lizhuang,38.422665,115.406454
+Hebei,Anguo,??,Solid show,38.376756,115.467919
+Ningxia,Pingluo,???,Guanqu ,38.914789,106.518723
+Ningxia,Pingluo,???,Yanhe ,38.861222,106.550253
+Ningxia,Pingluo,????,Bukouqiao ,38.8923,106.51607
+Ningxia,Pingluo,????,Xiaoxingdun ,38.864716,106.533044
+Ningxia,Pingluo,???,Gaolu ,38.799919,106.508784
+Ningxia,Pingluo,????,Daxingdun ,38.824313,106.518765
+Ningxia,Pingluo,???,Shaqu ,38.723916,106.45212
+Ningxia,Pingluo,???,Yongsheng ,38.750535,106.501377
+Ningxia,Pingluo,???,Zhoucheng ,38.78398,106.477437
+Ningxia,Pingluo,???,Shangqiao ,38.77498,106.463487
+Ningxia,Pingluo,???,Machang ,38.731061,106.567636
+Ningxia,Pingluo,???,Xinfeng ,38.795722,106.527661
+Ningxia,Pingluo,???,Xinchao ,38.785304,106.557615
+Ningxia,Pingluo,???,Yonghua ,38.75821,106.553954
+Ningxia,Pingluo,???,Tuanjie ,38.709481,106.548878
+Ningxia,Pingluo,???,Jizhong ,38.724987,106.52306
+Ningxia,Pingluo,????,FenShui Zha ,38.847377,106.613195
+Ningxia,Pingluo,???,Qukou ,38.879308,106.625591
+Ningxia,Pingluo,???,Xinqiao ,38.879849,106.594019
+Ningxia,Pingluo,???,Jinqiao ,38.866912,106.641885
+Ningxia,Pingluo,???,Hongyang ,38.888615,106.664674
+Ningxia,Pingluo,???,Yinxin ,38.904942,106.671494
+Ningxia,Pingluo,???,Shuangqu ,38.95499,106.682427
+Ningxia,Pingluo,????,Xiyonghui ,38.925017,106.638661
+Ningxia,Pingluo,???,TouZha ,38.93712,106.683743
+Ningxia,Pingluo,????,Shaojiaqiao ,38.921617,106.704188
+Ningxia,Pingluo,???,Yumin ,38.951105,106.705884
+Ningxia,Pingluo,???,Honggang ,38.942841,106.74605
+Ningxia,Pingluo,???,Shengli ,38.967875,106.744908
+Ningxia,Pingluo,???,Xiling ,39.002508,106.726505
+Ningxia,Pingluo,???,Dongling ,39.011262,106.799356
+Ningxia,Pingluo,???,Fugui ,38.991794,106.794242
+Ningxia,Pingluo,???,Hejia ,38.990556,106.748043
+Ningxia,Pingluo,???,Tianjia ,38.982749,106.742336
+Ningxia,Pingluo,????,Wujiawan ,39.046526,106.719504
+Ningxia,Pingluo,???,Zhongfang ,39.052152,106.770883
+Ningxia,Pingluo,???,Quyang ,39.057453,106.758563
+Ningxia,Pingluo,????,Majiaqiao ,39.070666,106.787611
+Ningxia,Pingluo,???,Xinqu ,39.077312,106.760995
+Ningxia,Pingluo,???,Quzhong ,39.035667,106.686872
+Ningxia,Pingluo,???,Tongrun ,39.034973,106.641605
+Ningxia,Pingluo,???,Tonghui ,38.9706,106.65022
+Ningxia,Pingluo,????,Huangquqiao ,39.020464,106.641298
+Ningxia,Pingluo,???,Xirun ,39.000789,106.694329
+Ningxia,Pingluo,???,Gaozhuang ,38.998626,106.580225
+Ningxia,Pingluo,???,Tongjin ,39.016622,106.570463
+Ningxia,Pingluo,???,Yinguang ,39.014405,106.598872
+Ningxia,Pingluo,??,Xin ,38.973511,106.572385
+Ningxia,Pingluo,???,Weizhen ,38.958062,106.533835
+Ningxia,Pingluo,???,Dongsheng ,38.940376,106.585363
+Ningxia,Pingluo,???,Xiamiao ,38.851461,106.243019
+Ningxia,Pingluo,???,Changqing ,38.862935,106.216824
+Ningxia,Pingluo,???,Lanfeng ,38.807599,106.29316
+Ningxia,Pingluo,???,Zhenshuo ,38.831452,106.264109
+Ningxia,Pingluo,???,Yongguang ,38.876851,106.632273
+Ningxia,Pingluo,???,Baqing ,38.701079,106.641158
+Ningxia,Pingluo,???,Dongsha ,38.7655,106.677994
+Ningxia,Pingluo,????,Wangjiagou ,39.070794,106.902548
+Ningxia,Pingluo,????,Wuduizi ,38.925789,106.81196
+Ningxia,Pingluo,????,Hongruixin ,38.903888,106.810731
+Ningxia,Qingtongxia,???,Weiqiao ,37.957105,106.006265
+Ningxia,Qingtongxia,???,Daba ,37.991557,106.034648
+Ningxia,Qingtongxia,???,Shamiao ,37.996542,106.013732
+Ningxia,Qingtongxia,???,Limin ,38.014375,106.04777
+Ningxia,Qingtongxia,???,Jiangdong cun,38.025869,106.040308
+Ningxia,Qingtongxia,???,Jiangnan ,38.013929,106.021792
+Ningxia,Qingtongxia,???,Zhongtan ,37.984924,106.080433
+Ningxia,Qingtongxia,???,Shangtan ,37.953721,106.046174
+Ningxia,Qingtongxia,????,Wanglaotan ,37.937887,106.025195
+Ningxia,Qingtongxia,???,Lixin ,37.951439,105.992321
+Ningxia,Qingtongxia,???,Xinqiao ,37.949052,105.986672
+Ningxia,Qingtongxia,????,Taishigou ,37.994097,105.973942
+Ningxia,Qingtongxia,???,Yuqiao ,37.908221,106.045973
+Ningxia,Qingtongxia,???,Wuxing ,38.139807,106.149286
+Ningxia,Qingtongxia,???,Longmen ,38.094375,106.171924
+Ningxia,Qingtongxia,???,Zhengzha ,38.148686,106.180356
+Ningxia,Qingtongxia,???,Shengzhuang ,38.110314,106.159615
+Ningxia,Qingtongxia,???,Lianfeng ,38.120684,106.151885
+Ningxia,Qingtongxia,???,Zhangzhuang ,38.123016,106.172976
+Ningxia,Qingtongxia,???,Disan ,38.128318,106.198677
+Ningxia,Qingtongxia,???,Luwan ,38.124422,106.130094
+Ningxia,Qingtongxia,???,Jiangtan ,38.105957,106.182451
+Ningxia,Qingtongxia,???,Yonghan ,38.127866,106.04231
+Ningxia,Qingtongxia,???,Shaonan ,38.142999,106.0586
+Ningxia,Qingtongxia,???,Shaogang ,38.162684,106.074463
+Ningxia,Qingtongxia,???,Erqi ,38.177468,106.029027
+Ningxia,Qingtongxia,????,Dongfanghong ,38.148415,106.007582
+Ningxia,Qingtongxia,???,Lower Bridge ,38.179662,106.071368
+Ningxia,Qingtongxia,???,Yuquan ,38.144302,106.024659
+Ningxia,Qingtongxia,???,Yuxi ,38.131702,105.950693
+Ningxia,Qingtongxia,???,Dagou ,38.102008,105.9446
+Ningxia,Qingtongxia,???,Haoqu ,37.926718,106.063754
+Ningxia,Qingtongxia,???,Shenzha ,37.917022,106.070842
+Ningxia,Qingtongxia,???,Hanqu ,37.891854,106.10178
+Ningxia,Qingtongxia,???,West Beach ,37.902267,106.063962
+Ningxia,Qingtongxia,???,Tanqiao ,37.898602,106.082693
+Ningxia,Qingtongxia,???,Yanqu ,37.915104,106.081257
+Ningxia,Qingtongxia,???,Zhaoqu ,37.903338,106.103049
+Ningxia,Qingtongxia,???,Pioneer ,38.082286,106.158259
+Ningxia,Qingtongxia,???,Lindong ,38.068019,106.127944
+Ningxia,Qingtongxia,???,Zhanggang ,38.031763,106.069106
+Ningxia,Qingtongxia,???,Yongfeng ,38.042214,106.075868
+Ningxia,Qingtongxia,???,Xinlin ,38.078517,106.092831
+Ningxia,Qingtongxia,???,Yuantan ,38.030022,106.169686
+Ningxia,Qingtongxia,???,Don Tan ,38.096068,106.211602
+Ningxia,Qingtongxia,???,Buaho ,38.030696,106.128906
+Ningxia,Qingtongxia,????,Sabawan ,38.06761,106.170508
+Ningxia,Qingtongxia,????,Wanliangtan ,38.06773,106.169001
+Ningxia,Qingtongxia,???,Qujing ,38.087513,106.059985
+Ningxia,Qingtongxia,???,Kuaiqiao ,38.080768,106.062461
+Ningxia,Qingtongxia,???,Shangqiao ,38.10554,106.048547
+Ningxia,Qingtongxia,???,Youhao ,38.099966,106.120298
+Ningxia,Qingtongxia,???,Maoqiao ,38.114162,106.106468
+Ningxia,Qingtongxia,???,Dongsheng ,38.045099,106.032307
+Ningxia,Qingtongxia,???,Xinmin ,38.062958,106.02535
+Ningxia,Qingtongxia,???,Yinguang ,38.06112,105.999845
+Ningxia,Qingtongxia,???,Yunan ,38.090088,106.017711
+Ningxia,Qingtongxia,???,Chaoyang ,38.104083,106.019247
+Ningxia,Qingtongxia,???,Shifang ,38.147081,106.122
+Ningxia,Qingtongxia,???,Guanghui ,38.074399,106.025523
+Shaanxi,Qishan,???,Hu Xincun,34.214168,107.675613
+Shaanxi,Qishan,???,An Lok ,34.226185,107.674124
+Shaanxi,Qishan,????,Liujiazhuang ,34.233186,107.657606
+Shaanxi,Qishan,????,Tangjialing ,34.249476,107.672453
+Shaanxi,Qishan,???,Wang Qicun,34.268082,107.662963
+Shaanxi,Qishan,???,Guilin ,34.264218,107.677096
+Shaanxi,Qishan,???,Xinhua ,34.28193,107.661273
+Shaanxi,Qishan,???,Hua Ming ,34.286543,107.65731
+Shaanxi,Qishan,???,Xinzhuang ,34.298969,107.648577
+Shaanxi,Qishan,???,Honggou ,34.219439,107.642051
+Shaanxi,Qishan,????,Fall Star Castle,34.203193,107.657082
+Shaanxi,Qishan,???,Sanyuan ,34.264583,107.603882
+Shaanxi,Qishan,???,Siyuan ,34.251308,107.593841
+Shaanxi,Qishan,???,fish dragon ,34.241839,107.576062
+Shaanxi,Qishan,???,Xigou ,34.241094,107.632143
+Shaanxi,Qishan,???,Yuanxing ,34.244831,107.62938
+Shaanxi,Qishan,???,caojiacun,34.237291,107.619183
+Shaanxi,Qishan,????,Zhengjiayuan ,34.248094,107.619332
+Shaanxi,Qishan,????,Wuzhangyuan ,34.267861,107.632965
+Shaanxi,Qishan,???,Five Star ,34.272034,107.631989
+Shaanxi,Qishan,???,Nanxing ,34.282855,107.625751
+Shaanxi,Qishan,???,West Star ,34.29138,107.601139
+Shaanxi,Qishan,???,North Star ,34.289163,107.621869
+Shaanxi,Qishan,???,Wenxing ,34.262508,107.620111
+Shaanxi,Qishan,???,Red Star ,34.277525,107.609102
+Shaanxi,Qishan,???,Tongxing ,34.279608,107.593651
+Shaanxi,Qishan,???,Shuizhai ,34.31563,107.625091
+Shaanxi,Qishan,???,ancient city ,34.316553,107.640464
+Shaanxi,Qishan,???,Fanjia ,34.322784,107.63541
+Shaanxi,Qishan,???,Gong Liucun,34.321732,107.678129
+Shaanxi,Qishan,??,Nagisa,34.455707,107.667701
+Shaanxi,Qishan,??,Sow King,34.460214,107.678976
+Shaanxi,Qishan,???,zhengjiaqiao,34.459938,107.695218
+Shaanxi,Qishan,??,Dushan,34.461779,107.703005
+Shaanxi,Qishan,???,Sifang Mountain,34.493948,107.69061
+Shaanxi,Qishan,??,Puan,34.443384,107.711545
+Shaanxi,Qishan,??,Mou family,34.437979,107.728326
+Shaanxi,Qishan,??,Feng family,34.499212,107.811922
+Shaanxi,Qishan,??,Dujia,34.437467,107.680898
+Shaanxi,Qishan,??,Sun Hou,34.432065,107.700179
+Shaanxi,Qishan,??,Western Plateau,34.418987,107.720527
+Shaanxi,Qishan,???,Daying ,34.413284,107.677017
+Shaanxi,Qishan,???,Shenwu ,34.425532,107.678113
+Shaanxi,Qishan,????,Bajiao Temple ,34.425152,107.662858
+Shaanxi,Qishan,???,Yudan ,34.409712,107.665303
+Shaanxi,Qishan,???,Dongpo ,34.415145,107.651617
+Shaanxi,Qishan,???,Gongsi ,34.387689,107.688891
+Shaanxi,Qishan,????,half a city,34.402005,107.704991
+Shaanxi,Qishan,????,Longjiahe ,34.390613,107.711952
+Shaanxi,Qishan,???,Nanguo ,34.387481,107.663726
+Shaanxi,Qishan,????,Xiaozi Mausoleum ,34.413952,107.608536
+Shaanxi,Qishan,???,Wenjia ,34.411772,107.586246
+Shaanxi,Qishan,???,Anli ,34.402626,107.593269
+Shaanxi,Qishan,???,Heyuan ,34.427098,107.589801
+Shaanxi,Qishan,????,Liujiayuan ,34.439102,107.595136
+Shaanxi,Qishan,????,Zhujiayuan ,34.43183,107.604111
+Shaanxi,Qishan,????,Hejiadao ,34.42816,107.627363
+Shaanxi,Qishan,????,Siyatou ,34.415618,107.643481
+Shaanxi,Qishan,????,Cao Jiaoling ,34.402314,107.648412
+Shaanxi,Qishan,???,Prince ,34.403601,107.632427
+Shaanxi,Chenggu,???,Xumiao ,33.262025,107.253759
+Shaanxi,Chenggu,???,Xiajie ,33.255445,107.254293
+Shaanxi,Chenggu,???,Lee Fort ,33.274344,107.227376
+Shaanxi,Chenggu,???,Wanying ,33.241581,107.251639
+Shaanxi,Chenggu,???,Bamboo Garden ,33.231322,107.25532
+Shaanxi,Chenggu,???,back bay ,33.222551,107.259198
+Shaanxi,Chenggu,???,Guoshan ,33.268926,107.213858
+Shaanxi,Chenggu,???,Zhangwan ,33.277098,107.298724
+Shaanxi,Chenggu,???,Zhangyao ,33.246589,107.228704
+Shaanxi,Chenggu,???,Zhangqiao ,33.229187,107.230737
+Shaanxi,Chenggu,???,Xinhe ,33.240575,107.21609
+Shaanxi,Chenggu,???,Jiashan ,33.213895,107.244215
+Shaanxi,Chenggu,???,Fumiao ,33.218208,107.23426
+Shaanxi,Chenggu,???,Qunfeng ,33.225153,107.219688
+Shaanxi,Chenggu,??,former ,33.17884,107.302904
+Shaanxi,Chenggu,??,West ,33.129565,107.381079
+Shaanxi,Chenggu,??,back ,33.274983,107.265254
+Shaanxi,Chenggu,???,Yangying ,33.260001,107.173991
+Shaanxi,Chenggu,???,Yangtan ,33.275929,107.275942
+Shaanxi,Chenggu,???,Xinzhuang ,33.257792,107.307849
+Shaanxi,Chenggu,????,Dongyuan Gongcun,33.231359,107.296668
+Shaanxi,Chenggu,???,Xinyuan ,33.233549,107.292758
+Shaanxi,Chenggu,???,Qixin ,33.233806,107.291452
+Shaanxi,Chenggu,????,Tianshizi ,33.241461,107.281848
+Shaanxi,Chenggu,???,Yuangong ,33.245531,107.278617
+Shaanxi,Chenggu,???,Nishihara ,33.246793,107.274765
+Shaanxi,Chenggu,???,Xiba ,33.248827,107.265999
+Shaanxi,Chenggu,???,Sanguan ,33.245749,107.33709
+Shaanxi,Chenggu,???,Kakiyama ,33.258653,107.315564
+Shaanxi,Chenggu,????,Qinglong Temple ,33.268773,107.305311
+Shaanxi,Chenggu,????,Fanjiaying ,33.106921,107.217222
+Shaanxi,Chenggu,????,Caoheba ,33.109036,107.226901
+Shaanxi,Chenggu,????,Waibeijie ,33.098146,107.233206
+Shaanxi,Chenggu,???,Lecheng ,33.090862,107.234805
+Shaanxi,Chenggu,????,Gongjiabao ,33.081091,107.213984
+Shaanxi,Chenggu,????,Baojiaying ,33.096599,107.210652
+Shaanxi,Chenggu,????,Zhangjia'an ,33.084193,107.204195
+Shaanxi,Chenggu,????,Xiejiaying ,33.070941,107.207661
+Shaanxi,Chenggu,????,Hanjiaying ,33.085277,107.245704
+Shaanxi,Chenggu,????,Ningjiawan ,33.063222,107.191001
+Shaanxi,Chenggu,???,Lefeng ,33.094405,107.237614
+Shaanxi,Chenggu,????,Wangjiabao ,33.106186,107.255589
+Shaanxi,Chenggu,???,Sihe ,33.061817,107.209164
+Shaanxi,Chenggu,????,Songshan Temple ,33.058413,107.238777
+Shaanxi,Chenggu,????,Qiangnankan ,33.089443,107.238472
+Shaanxi,Chenggu,????,Zanjiazhuang ,33.06842,107.223228
+Shaanxi,Chenggu,???,Sanhe ,33.058892,107.221176
+Shaanxi,Chenggu,????,Lijiazui ,33.091309,107.253413
+Shaanxi,Chenggu,????,Xiangri Temple ,33.108021,107.24142
+Shaanxi,Chenggu,????,Koukouying ,33.066639,107.237602
+Shaanxi,Chenggu,???,Xinyuan ,33.038293,107.204181
+Shaanxi,Chenggu,???,Xinfeng ,33.034617,107.225637
+Shaanxi,Chenggu,????,Huguangying ,33.110328,107.320688
+Shaanxi,Chenggu,???,Shaojia ,33.110039,107.302995
+Shaanxi,Chenggu,???,Jinxing ,33.106651,107.29815
+Shaanxi,Chenggu,????,Mo Yemiao ,33.105574,107.290594
+Shaanxi,Chenggu,???,Lianfeng ,33.102064,107.290419
+Shaanxi,Chenggu,???,Taiping ,33.114058,107.278389
+Shaanxi,Chenggu,????,Qilidian ,33.062996,107.260966
+Shaanxi,Chenggu,????,Xujiaying ,33.051101,107.24615
