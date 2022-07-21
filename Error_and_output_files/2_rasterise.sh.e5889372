@@ -1,0 +1,45 @@
+Warning message:
+package ‘broom’ was built under R version 4.1.3 
+Loading required package: sp
+Warning messages:
+1: package ‘raster’ was built under R version 4.1.3 
+2: package ‘sp’ was built under R version 4.1.3 
+Please note that rgdal will be retired by the end of 2023,
+plan transition to sf/stars/terra functions using GDAL and PROJ
+at your earliest convenience.
+
+rgdal: version: 1.5-28, (SVN revision 1158)
+Geospatial Data Abstraction Library extensions to R successfully loaded
+Loaded GDAL runtime: GDAL 3.4.1, released 2021/12/27
+Path to GDAL shared files: /rds/general/user/syl416/home/anaconda3/envs/MScProject_env/share/gdal
+GDAL binary built with GEOS: TRUE 
+Loaded PROJ runtime: Rel. 8.2.1, January 1st, 2022, [PJ_VERSION: 821]
+Path to PROJ shared files: /rds/general/user/syl416/home/anaconda3/envs/MScProject_env/share/proj
+PROJ CDN enabled: TRUE
+Linking to sp version:1.4-6
+To mute warnings of possible GDAL/OSR exportToProj4() degradation,
+use options("rgdal_show_exportToProj4_warnings"="none") before loading sp or rgdal.
+Warning message:
+package ‘ggplot2’ was built under R version 4.1.3 
+Linking to GEOS 3.10.2, GDAL 3.4.1, PROJ 8.2.1; sf_use_s2() is TRUE
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:raster’:
+
+    intersect, select, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning message:
+package ‘dplyr’ was built under R version 4.1.3 
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'x' in selecting a method for function 'spTransform': object 'pts' not found
+Calls: spTransform -> .handleSimpleError -> h
+Execution halted

@@ -1,0 +1,22 @@
+Warning message:
+package ‘broom’ was built under R version 4.0.5 
+trying URL 'https://rspatial.r-universe.dev/src/contrib/terra_1.6-1.tar.gz'
+Content type 'application/x-gzip' length 1314809 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *source* package ‘terra’ ...
+** using staged installation
+configure: error: gdal-config not found or not executable.
+ERROR: configuration failed for package ‘terra’
+* removing ‘/rds/general/user/syl416/home/anaconda3/lib/R/library/terra’
+
+The downloaded source packages are in
+	‘/var/tmp/pbs.5831654.pbs/RtmpRtUrwg/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning message:
+In install.packages("terra", repos = "https://rspatial.r-universe.dev") :
+  installation of package ‘terra’ had non-zero exit status
+Error in library(terra) : there is no package called ‘terra’
+Execution halted

@@ -1,0 +1,23 @@
+Warning message:
+package ‘broom’ was built under R version 4.0.5 
+trying URL 'http://cran.us.r-project.org/src/contrib/terra_1.5-34.tar.gz'
+Content type 'application/x-gzip' length 667829 bytes (652 KB)
+==================================================
+downloaded 652 KB
+
+* installing *source* package ‘terra’ ...
+** package ‘terra’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure: error: gdal-config not found or not executable.
+ERROR: configuration failed for package ‘terra’
+* removing ‘/rds/general/user/syl416/home/anaconda3/lib/R/library/terra’
+
+The downloaded source packages are in
+	‘/var/tmp/pbs.5831595.pbs/Rtmp2YKuVf/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning message:
+In install.packages("terra", repos = "http://cran.us.r-project.org") :
+  installation of package ‘terra’ had non-zero exit status
+Error in library(terra) : there is no package called ‘terra’
+Execution halted
