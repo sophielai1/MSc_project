@@ -3,6 +3,6 @@
 
 module load anaconda3/personal
 
-cd /rds/general/user/syl416/home/MScProject
+cd /rds/general/user/syl416/home/MSc_project
 
-Rscript 1_merge_tiles_2017_18.R
+Rscript 2_merge_tiles.R
