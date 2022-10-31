@@ -1,6 +1,0 @@
-Warning message:
-package ‘broom’ was built under R version 4.0.5 
-Error in contrib.url(repos, type) : 
-  trying to use CRAN without setting a mirror
-Calls: install.packages -> startsWith -> contrib.url
-Execution halted
