@@ -3,6 +3,6 @@
 
 module load anaconda3/personal
 
-cd /rds/general/user/syl416/home/MScProject
+cd /rds/general/user/syl416/home/MSc_project
 
-Rscript 1_dataset_19_20.R
+Rscript 1_dataset_combine.R
