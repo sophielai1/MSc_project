@@ -40,3 +40,9 @@ vignettes/*.pdf
 
 # Error and output files
 /Error_and_output_files
+
+# Example scripts
+/Example_scripts
+
+# Original data
+/Original_data
