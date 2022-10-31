@@ -39,10 +39,10 @@ vignettes/*.pdf
 .Renviron
 
 # Error and output files
-/Error_and_output_files
+Error_and_output_files/
 
 # Example scripts
-/Example_scripts
+Example_scripts/
 
 # Original data
-/Original_data
+Original_data/
