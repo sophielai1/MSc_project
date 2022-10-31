@@ -1,4 +1,0 @@
-configure: CC: x86_64-conda_cos6-linux-gnu-cc
-configure: CXX: x86_64-conda_cos6-linux-gnu-c++ -std=gnu++11
-checking for gdal-config... no
-no
