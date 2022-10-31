@@ -1,5 +1,5 @@
 library(tidyverse)
-setwd("/rds/general/user/syl416/home/MScProject/Original_data")
+setwd("/rds/general/user/syl416/home/MSc_project/Original_data")
 
 ## combine 2 years at a time as file sizes are too large
 
