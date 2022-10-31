@@ -5,6 +5,21 @@
 
 ----------------------------------------------------------------------------
 
+## Contents
+**1. Project Background**
+1.1 Air Pollution in China
+1.2 PM<sub>2.5</sub>
+1.3 Salt Substitute and Stroke Study (SSaSS)
+1.4 Coal-to-Electricity Policy
+
+**2. Aims and Objectives**
+
+**3. Methods**
+3.1 PM<sub>2.5</sub> Data Source
+3.2 Data Pre-Processing
+
+----------------------------------------------------------------------------
+
 ## 1. Project Background
 
 ### 1.1 Air Pollution in China
@@ -21,6 +36,7 @@ Chinese government: 75μg/m<sup>3</sup>
 
 ### 1.3 Salt Substitute and Stroke Study (SSaSS)
 
+The Salt Substitute and Stroke Study (SSaSS) is a randomised controlled trial being conducted in China. Half of just under 21,000 participants are given a reduced sodium, added potassium salt substitute intervention while the other half continue with usual care. The participants are from 5 different provinces in China: Hebei, Liaoning, Shanxi, Shaanxi and the Ningxia autonomous region which is equivalent to province level. Within each province, 2 counties were selected and within each county, approximately 60 villages were selected for the SSaSS study. These areas were chosen based on having a high prevalence of hypertension and stroke, willingness to participate and being representative socioeconomically of the province. The study sites can be seen in Figure 1.
 
 
 ### 1.4 Coal-to-Electricity Policy
