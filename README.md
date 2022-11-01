@@ -15,7 +15,7 @@
 
 **2. Aims and Objectives**  
 
-**3. Methods**  
+**3. Methods and Script Definitions**  
 3.1 PM<sub>2.5</sub> Data Source  
 3.2 Data Pre-Processing  
 
@@ -59,18 +59,19 @@ This study will use the study sites from the SSaSS study as a starting point. Ac
 
 ----------------------------------------------------------------------------
 
-## 3. Methods
+## 3. Methods and Script Definitions
 
 ### 3.1 PM<sub>2.5</sub> Data Source
 
-The data was from a database called [Tracking Air Polltuion in China (TAP)](http://tapdata.org.cn/?page_id=1160&item=pm25&lang=en). Daily temporal resolution and 1km x 1km spatial resolution were selected as they were the smallest resolutions available and the spatial resolution of the data matches that of the Chinese villages in the study. Data was downloaded for the dates between the 1<sup>st</sup> of January 2015 and 31<sup>st</sup> of December 2020 inclusive and was downloaded in csv format for all study sites year by year.
-GRID ID AND TILE ID----------------
+The data was from a database called [Tracking Air Polltuion in China (TAP)](http://tapdata.org.cn/?page_id=1160&item=pm25&lang=en). Daily temporal resolution and 1km x 1km spatial resolution were selected as they were the smallest resolutions available and the spatial resolution of the data matches that of the Chinese villages in the study. Data was downloaded for the dates between the 1<sup>st</sup> of January 2015 and 31<sup>st</sup> of December 2020 inclusive. It was extracted from a map of China with a fishnet grid where each cell was referred to as a tile with a tileID and each tile spanned 3 degrees of longitude and latitude. Each tile consisted of approximately 130,000 1km grids which have unique gridIDs. Data was downloaded as one csv file for each day and each tile. The year, day number and tileID were included in the filename only. 
 
 ### 3.2 Data Pre-Processing
 
-*1_dataset_combine.R*: Combining the csv files for all years separately. Then combining the rds files for 2015 and 2016, 2017 and 2018, and 2019 and 2020 to make 3 rds files. 3 files were created rather than 1 as the file sizes were too large to handle. These datasets contain PM<sub>2.5</sub> concentrations and GridIDs.
+*1_dataset_combine.R*: Extracting the year and day from each file name and putting them within each csv file. Then combining the csv files for all days in each year separately. Then combining the rds files for 2015 and 2016, 2017 and 2018, and 2019 and 2020 to make 3 rds files. 3 files were created rather than 1 as the file sizes were too large to handle. These datasets contain PM<sub>2.5</sub> concentrations and GridIDs.
 
 *2_merge_tiles.R*: Doing a left join on GridID from each of the 3 PM<sub>2.5</sub> datasets created above and the tile data which includes GridIDs, TileIDs and the longitude and latitude of the centre of each grid. These datasets now contain PM<sub>2.5</sub> concentrations, GridID, TileID, longitude and latitude.
+
+*3_convert_day_to_date.R*: 
 
 ### 
 
