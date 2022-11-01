@@ -73,6 +73,8 @@ The data was from a database called [Tracking Air Polltuion in China (TAP)](http
 
 *3_convert_day_to_date.R*: Use the extracted year and day columns to create a date column in yyyy-mm-dd format. These final datasets now contain PM<sub>2.5</sub> concentrations, GridID, year, day, TileID, longitude, latitude and date.
 
+*4_subset_province.R*: Subset the datasets into provinces using GridIDs and create a sample of 1000 rows of each dataset to test future code on.
+
 ### 
 
 ----------------------------------------------------------------------------
