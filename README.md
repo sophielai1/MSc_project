@@ -67,11 +67,11 @@ The data was from a database called [Tracking Air Polltuion in China (TAP)](http
 
 ### 3.2 Data Pre-Processing
 
-*1_dataset_combine.R*: Extracting the year and day from each file name and putting them within each csv file. Then combining the csv files for all days in each year separately. Then combining the rds files for 2015 and 2016, 2017 and 2018, and 2019 and 2020 to make 3 rds files. 3 files were created rather than 1 as the file sizes were too large to handle. These datasets contain PM<sub>2.5</sub> concentrations and GridIDs.
+*1_dataset_combine.R*: Extracting the year and day from each file name and putting them within each csv file. Then combining the csv files for all days in each year separately. Then combining the rds files for 2015 and 2016, 2017 and 2018, and 2019 and 2020 to make 3 rds files. 3 files were created rather than 1 as the file sizes were too large to handle. These datasets contain PM<sub>2.5</sub> concentrations, GridIDs, year and day.
 
-*2_merge_tiles.R*: Doing a left join on GridID from each of the 3 PM<sub>2.5</sub> datasets created above and the tile data which includes GridIDs, TileIDs and the longitude and latitude of the centre of each grid. These datasets now contain PM<sub>2.5</sub> concentrations, GridID, TileID, longitude and latitude.
+*2_merge_tiles.R*: Doing a left join on GridID from each of the 3 PM<sub>2.5</sub> datasets created above and the tile data which includes GridIDs, TileIDs and the longitude and latitude of the centre of each grid. These datasets now contain PM<sub>2.5</sub> concentrations, GridID, year, day, TileID, longitude and latitude.
 
-*3_convert_day_to_date.R*: 
+*3_convert_day_to_date.R*: Use the extracted year and day columns to create a date column in yyyy-mm-dd format. These final datasets now contain PM<sub>2.5</sub> concentrations, GridID, year, day, TileID, longitude, latitude and date.
 
 ### 
 
