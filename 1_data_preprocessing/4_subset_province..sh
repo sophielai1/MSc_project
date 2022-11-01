@@ -3,6 +3,6 @@
 
 module load anaconda3/personal
 
-cd /rds/general/user/syl416/home/MScProject/Data/sample
+cd /rds/general/user/syl416/home/MSc_project/1_data_preprocessing
 
-Rscript extract_sample_2017_18.R
+Rscript 4_subset_province.R
