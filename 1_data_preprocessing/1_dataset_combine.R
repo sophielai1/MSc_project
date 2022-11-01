@@ -26,7 +26,7 @@ for (x in list_of_files_in_folder){
 combine_csvfiles_2015 <- dplyr::bind_rows(new_file_list)
 head(combine_csvfiles_2015)
 tail(combine_csvfiles_2015)
-saveRDS(combine_csvfiles_2015, file="data_combined_2015.rds")
+saveRDS(combine_csvfiles_2015, file="1_data_combined_2015.rds")
 
 # 2016: extract year and day from filename --------
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data/2016")
@@ -50,7 +50,7 @@ for (x in list_of_files_in_folder){
 combine_csvfiles_2016 <- dplyr::bind_rows(new_file_list)
 head(combine_csvfiles_2016)
 tail(combine_csvfiles_2016)
-saveRDS(combine_csvfiles_2016, file="data_combined_2016.rds")
+saveRDS(combine_csvfiles_2016, file="1_data_combined_2016.rds")
 
 # 2015-2016: combine 2015 and 2016 rds files -----------------------------------------
 rdsfiles_2015_2016 <-
@@ -63,7 +63,7 @@ data_combined_2015_2016 <- rdsfiles_2015_2016 %>%
 print("data combined 2015-2016:")
 dim(data_combined_2015_2016)
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data")
-saveRDS(data_combined_2015_2016, "data_combined_2015_16.rds")
+saveRDS(data_combined_2015_2016, "1_data_combined_2015_16.rds")
 
 # 2017: extract year and day from filename --------
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data/2017")
@@ -87,7 +87,7 @@ for (x in list_of_files_in_folder){
 combine_csvfiles_2017 <- dplyr::bind_rows(new_file_list)
 head(combine_csvfiles_2017)
 tail(combine_csvfiles_2017)
-saveRDS(combine_csvfiles_2017, file="data_combined_2017.rds")
+saveRDS(combine_csvfiles_2017, file="1_data_combined_2017.rds")
 
 # 2018: extract year and day from filename --------
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data/2018")
@@ -111,7 +111,7 @@ for (x in list_of_files_in_folder){
 combine_csvfiles_2018 <- dplyr::bind_rows(new_file_list)
 head(combine_csvfiles_2018)
 tail(combine_csvfiles_2018)
-saveRDS(combine_csvfiles_2018, file="data_combined_2018.rds")
+saveRDS(combine_csvfiles_2018, file="1_data_combined_2018.rds")
 
 # 2017-2018: combine 2017 and 2018 data ----------------------------------------------
 rdsfiles_2017_2018 <-
@@ -124,7 +124,7 @@ data_combined_2017_2018 <- rdsfiles_2017_2018 %>%
 print("data_combined 2017-2018:")
 dim(data_combined_2017_2018)
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data")
-saveRDS(data_combined_2017_2018, "data_combined_2017_18.rds")
+saveRDS(data_combined_2017_2018, "1_data_combined_2017_18.rds")
 
 # 2019: extract year and day from filename --------
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data/2019")
@@ -148,7 +148,7 @@ for (x in list_of_files_in_folder){
 combine_csvfiles_2019 <- dplyr::bind_rows(new_file_list)
 head(combine_csvfiles_2019)
 tail(combine_csvfiles_2019)
-saveRDS(combine_csvfiles_2019, file="data_combined_2019.rds")
+saveRDS(combine_csvfiles_2019, file="1_data_combined_2019.rds")
 
 # 2020: extract year and day from filename --------
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data/2020")
@@ -172,7 +172,7 @@ for (x in list_of_files_in_folder){
 combine_csvfiles_2020 <- dplyr::bind_rows(new_file_list)
 head(combine_csvfiles_2020)
 tail(combine_csvfiles_2020)
-saveRDS(combine_csvfiles_2020, file="data_combined_2020.rds")
+saveRDS(combine_csvfiles_2020, file="1_data_combined_2020.rds")
 
 # 2019-2020: combine 2019 and 2020 data ----------------------------------------------
 rdsfiles_2019_2020 <-
@@ -185,7 +185,7 @@ data_combined_2019_2020 <- rdsfiles_2019_2020 %>%
 print("data_combined 2019-2020:")
 dim(data_combined_2019_2020)
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data")
-saveRDS(data_combined_2019_2020, "data_combined_2019_20.rds")
+saveRDS(data_combined_2019_2020, "1_data_combined_2019_20.rds")
 
 
 
