@@ -1,6 +1,6 @@
 library(tidyverse)
-setwd("/rds/general/user/syl416/home/MSc_project/Original_data")
-
+library(sf)
+sf::sf_use_s2(FALSE)
 
 # Hebei: combine tiles ----------------------------------------------------
 setwd("/rds/general/user/syl416/home/MSc_project/Original_data/Hebei_tiles")
@@ -107,6 +107,41 @@ hebei_sample_1000 <- hebei_data_combined[sample(nrow(hebei_data_combined), 1000,
 saveRDS(hebei_sample_1000, file="4_hebei_sample_dataset.rds")
 
 
+# Hebei: subset province by shapefile -------------------------------------
+#read shapefile
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
+hebei_shp <- read_sf("河北.shp")
+
+#filter by county name
+hebei_2_counties <- subset(shp, 县 %in% c("安国市", "鹿泉市"))
+hebei_province_level_shp <- hebei_2_counties %>%
+  group_by(县) %>%
+  nest()
+
+#save new shapefile
+setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+sf::st_write(hebei_province_level_shp, "hebei.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
+
+#intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
+#convert to an object of class sf
+hebei_data_combined_sf <- st_as_sf(hebei_data_combined, coords=c("Longitude", "Latitude"))
+
+#make sure coordinate systems projections are the same
+hebei_province_level_shp <- st_transform(hebei_province_level_shp, 4326)
+hebei_data_combined_sf <- hebei_data_combined_sf %>% st_set_crs(st_crs(hebei_province_level_shp))
+st_crs(hebei_province_level_shp) == st_crs(hebei_data_combined_sf)  # should return TRUE
+
+#st_intersects
+start_time <- Sys.time()
+hebei_province_intersects <- hebei_data_combined_sf[st_intersects(hebei_data_combined_sf, hebei_province_level_shp) %>% lengths > 0,]
+end_time <- Sys.time()
+end_time - start_time
+head(hebei_province_intersects)
+dim(hebei_province_intersects)
+
+#save province subset
+setwd("/rds/general/user/syl416/home/MSc_project/Subset_data/province_level")
+saveRDS(hebei_province_intersects, file = "hebei_province.rds")
 
 
 # Liaoning: combine tiles ----------------------------------------------------
@@ -210,7 +245,41 @@ liaoning_sample_1000 <- liaoning_data_combined[sample(nrow(liaoning_data_combine
 
 saveRDS(liaoning_sample_1000, file="4_liaoning_sample_dataset.rds")
 
+# Liaoning: subset province by shapefile -------------------------------------
+#read shapefile
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
+liaoning_shp <- read_sf("辽宁.shp")
 
+#filter by county name
+liaoning_2_counties <- subset(shp, 县 %in% c("凤城市", "彰武县"))
+liaoning_province_level_shp <- liaoning_2_counties %>%
+  group_by(县) %>%
+  nest()
+
+#save new shapefile
+setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+sf::st_write(liaoning_province_level_shp, "liaoning.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
+
+#intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
+#convert to an object of class sf
+liaoning_data_combined_sf <- st_as_sf(liaoning_data_combined, coords=c("Longitude", "Latitude"))
+
+#make sure coordinate systems projections are the same
+liaoning_province_level_shp <- st_transform(liaoning_province_level_shp, 4326)
+liaoning_data_combined_sf <- liaoning_data_combined_sf %>% st_set_crs(st_crs(liaoning_province_level_shp))
+st_crs(liaoning_province_level_shp) == st_crs(liaoning_data_combined_sf)  # should return TRUE
+
+#st_intersects
+start_time <- Sys.time()
+liaoning_province_intersects <- liaoning_data_combined_sf[st_intersects(liaoning_data_combined_sf, liaoning_province_level_shp) %>% lengths > 0,]
+end_time <- Sys.time()
+end_time - start_time
+head(liaoning_province_intersects)
+dim(liaoning_province_intersects)
+
+#save province subset
+setwd("/rds/general/user/syl416/home/MSc_project/Subset_data/province_level")
+saveRDS(liaoning_province_intersects, file = "liaoning_province.rds")
 
 
 
@@ -315,7 +384,41 @@ ningxia_sample_1000 <- ningxia_data_combined[sample(nrow(ningxia_data_combined),
 
 saveRDS(ningxia_sample_1000, file="4_ningxia_sample_dataset.rds")
 
+# Ningxia: subset province by shapefile -------------------------------------
+#read shapefile
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
+ningxia_shp <- read_sf("宁夏.shp")
 
+#filter by county name
+ningxia_2_counties <- subset(shp, 县 %in% c("平罗县", "青铜峡市"))
+ningxia_province_level_shp <- ningxia_2_counties %>%
+  group_by(县) %>%
+  nest()
+
+#save new shapefile
+setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+sf::st_write(ningxia_province_level_shp, "ningxia.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
+
+#intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
+#convert to an object of class sf
+ningxia_data_combined_sf <- st_as_sf(ningxia_data_combined, coords=c("Longitude", "Latitude"))
+
+#make sure coordinate systems projections are the same
+ningxia_province_level_shp <- st_transform(ningxia_province_level_shp, 4326)
+ningxia_data_combined_sf <- ningxia_data_combined_sf %>% st_set_crs(st_crs(ningxia_province_level_shp))
+st_crs(ningxia_province_level_shp) == st_crs(ningxia_data_combined_sf)  # should return TRUE
+
+#st_intersects
+start_time <- Sys.time()
+ningxia_province_intersects <- ningxia_data_combined_sf[st_intersects(ningxia_data_combined_sf, ningxia_province_level_shp) %>% lengths > 0,]
+end_time <- Sys.time()
+end_time - start_time
+head(ningxia_province_intersects)
+dim(ningxia_province_intersects)
+
+#save province subset
+setwd("/rds/general/user/syl416/home/MSc_project/Subset_data/province_level")
+saveRDS(ningxia_province_intersects, file = "ningxia_province.rds")
 
 
 # Shanxi: combine tiles ----------------------------------------------------
@@ -419,7 +522,41 @@ shanxi_sample_1000 <- shanxi_data_combined[sample(nrow(shanxi_data_combined), 10
 
 saveRDS(shanxi_sample_1000, file="4_shanxi_sample_dataset.rds")
 
+# Shanxi: subset province by shapefile -------------------------------------
+#read shapefile
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
+shanxi_shp <- read_sf("山西.shp")
 
+#filter by county name
+shanxi_2_counties <- subset(shp, 县 %in% c("长治县", "高平市"))
+shanxi_province_level_shp <- shanxi_2_counties %>%
+  group_by(县) %>%
+  nest()
+
+#save new shapefile
+setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+sf::st_write(shanxi_province_level_shp, "shanxi.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
+
+#intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
+#convert to an object of class sf
+shanxi_data_combined_sf <- st_as_sf(shanxi_data_combined, coords=c("Longitude", "Latitude"))
+
+#make sure coordinate systems projections are the same
+shanxi_province_level_shp <- st_transform(shanxi_province_level_shp, 4326)
+shanxi_data_combined_sf <- shanxi_data_combined_sf %>% st_set_crs(st_crs(shanxi_province_level_shp))
+st_crs(shanxi_province_level_shp) == st_crs(shanxi_data_combined_sf)  # should return TRUE
+
+#st_intersects
+start_time <- Sys.time()
+shanxi_province_intersects <- shanxi_data_combined_sf[st_intersects(shanxi_data_combined_sf, shanxi_province_level_shp) %>% lengths > 0,]
+end_time <- Sys.time()
+end_time - start_time
+head(shanxi_province_intersects)
+dim(shanxi_province_intersects)
+
+#save province subset
+setwd("/rds/general/user/syl416/home/MSc_project/Subset_data/province_level")
+saveRDS(shanxi_province_intersects, file = "shanxi_province.rds")
 
 
 # Shaanxi: combine tiles ----------------------------------------------------
@@ -523,6 +660,41 @@ shaanxi_sample_1000 <- shaanxi_data_combined[sample(nrow(shaanxi_data_combined),
 
 saveRDS(shaanxi_sample_1000, file="4_shaanxi_sample_dataset.rds")
 
+# Shaanxi: subset province by shapefile -------------------------------------
+#read shapefile
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
+shaanxi_shp <- read_sf("山西.shp")
+
+#filter by county name
+shaanxi_2_counties <- subset(shp, 县 %in% c("岐山县", "城固县"))
+shaanxi_province_level_shp <- shaanxi_2_counties %>%
+  group_by(县) %>%
+  nest()
+
+#save new shapefile
+setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+sf::st_write(shaanxi_province_level_shp, "shaanxi.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
+
+#intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
+#convert to an object of class sf
+shaanxi_data_combined_sf <- st_as_sf(shaanxi_data_combined, coords=c("Longitude", "Latitude"))
+
+#make sure coordinate systems projections are the same
+shaanxi_province_level_shp <- st_transform(shaanxi_province_level_shp, 4326)
+shaanxi_data_combined_sf <- shaanxi_data_combined_sf %>% st_set_crs(st_crs(shaanxi_province_level_shp))
+st_crs(shaanxi_province_level_shp) == st_crs(shaanxi_data_combined_sf)  # should return TRUE
+
+#st_intersects
+start_time <- Sys.time()
+shaanxi_province_intersects <- shaanxi_data_combined_sf[st_intersects(shaanxi_data_combined_sf, shaanxi_province_level_shp) %>% lengths > 0,]
+end_time <- Sys.time()
+end_time - start_time
+head(shaanxi_province_intersects)
+dim(shaanxi_province_intersects)
+
+#save province subset
+setwd("/rds/general/user/syl416/home/MSc_project/Subset_data/province_level")
+saveRDS(shaanxi_province_intersects, file = "shaanxi_province.rds")
 
 
 
