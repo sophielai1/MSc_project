@@ -17,7 +17,12 @@
 
 **3. Methods and Script Definitions**  
 3.1 PM<sub>2.5</sub> Data Source  
-3.2 Data Pre-Processing  
+3.2 Data Pre-Processing 
+3.3 Descriptive Analysis
+3.4 Trend Analysis
+3.5 Difference in Differences (DID) Test
+
+**4. Conclusions**  
 
 ----------------------------------------------------------------------------
 
@@ -37,7 +42,7 @@ Chinese government: 75μg/m<sup>3</sup>
 
 ### 1.3 Salt Substitute and Stroke Study (SSaSS)
 
-The Salt Substitute and Stroke Study (SSaSS) is a randomised controlled trial being conducted in China. Half of just under 21,000 participants are given a reduced sodium, added potassium salt substitute intervention while the other half continue with usual care. The participants are from 5 different provinces in China: Hebei, Liaoning, Shanxi, Shaanxi and the Ningxia autonomous region which is equivalent to province level. Within each province, 2 counties were selected and within each county, approximately 60 villages were selected for the SSaSS study. These areas were chosen based on having a high prevalence of hypertension and stroke, willingness to participate and being representative socioeconomically of the province. The study sites can be seen in Figure 1.
+The Salt Substitute and Stroke Study (SSaSS) is a randomised controlled trial being conducted in China. Half of just under 21,000 participants are given a reduced sodium, added potassium salt substitute intervention while the other half continue with usual care. The participants are from 5 different provinces in China: Hebei, Liaoning, Shanxi, Shaanxi and the Ningxia autonomous region which is equivalent to province level. Within each province, 2 counties were selected and within each county, approximately 60 villages were selected for the SSaSS study. These areas were chosen based on having a high prevalence of hypertension and stroke, willingness to participate and being representative socioeconomically of the province. The study sites can be seen in *3_results/1_study_sites.png*.
 
 ### 1.4 Coal-to-Electricity Policy
 
@@ -67,6 +72,8 @@ The data was from a database called [Tracking Air Polltuion in China (TAP)](http
 
 ### 3.2 Data Pre-Processing
 
+The 1_data_preprocessing directory contains the following scripts.
+
 *1_dataset_combine.R*: Extracting the year and day from each file name and putting them within each csv file. Then combining the csv files for all days in each year separately. Then combining the rds files for 2015 and 2016, 2017 and 2018, and 2019 and 2020 to make 3 rds files. 3 files were created rather than 1 as the file sizes were too large to handle. These datasets contain PM<sub>2.5</sub> concentrations, GridIDs, year and day.
 
 *2_merge_tiles.R*: Doing a left join on GridID from each of the 3 PM<sub>2.5</sub> datasets created above and the tile data which includes GridIDs, TileIDs and the longitude and latitude of the centre of each grid. These datasets now contain PM<sub>2.5</sub> concentrations, GridID, year, day, TileID, longitude and latitude.
@@ -77,28 +84,44 @@ The data was from a database called [Tracking Air Polltuion in China (TAP)](http
 
 *5_create_village_level_datasets.R*: Use a csv file of the names of villages (approximately 60 per county) selected from each province and county for the study to extract the shapefile polygon of the same village name and intersect it with the PM2.5 data. This creates a dataset for each of the 600 villages in the study. The PM2.5 data was first subset from province into county so it would be easier to work with and to avoid villages of the same name but in a different county being selected. Challenges faced in this step: Village names for each county were checked for duplicates and in the case of duplicates, village locations were checked visually by plotting them and the village closest to the coordinates found on Google maps was selected. Some villages had no PM<sub>2.5</sub> data associated with them (a total of 8 villages). Some villages did not have a corresponding village polygon of the same name in the shapefiles (a total of 14 villages). This left a total of 578 villages with PM<sub>2.5</sub> data associated with them. Reasons for this could include language factors, such as there being traditional and simplified Chinese characters, local dialects, some villages having very similar names, people from different areas of China may refer to the same village by different names and administrative boundaries as well as the names of the areas may change.
 
-*6_create_county_level_datasets.R*: Combine all village-level data for villages within each county. Aggregate the data by taking the daily and weekly mean PM<sub>2.5</sub> across all villages in each county. These datasets are saved in the Aggregated_data/county_level directory.
+*6_create_county_level_datasets.R*: Combine all village-level data for villages within each county. Aggregate the data by taking the daily and weekly mean PM<sub>2.5</sub> across all villages in each county. These datasets are saved in the *Aggregated_data/county_level* directory.
 
-*7_create_province_level_datasets.R*: Combine all village-level data for villages within each province. Aggregate the data by taking the daily and weekly mean PM<sub>2.5</sub> across all villages in each province. These datasets are saved in the Aggregated_data/province_level directory.
+*7_create_province_level_datasets.R*: Combine all village-level data for villages within each province. Aggregate the data by taking the daily and weekly mean PM<sub>2.5</sub> across all villages in each province. These datasets are saved in the *Aggregated_data/province_level* directory.
 
+### 3.3 Descriptive Analysis
 
-### 
+The 2_analysis directory contains the following scripts.
+
+*1_descriptive_study_sites.R*: Uses publicly available shapefiles of China at province and county level to show the study sites. Output: *3_results/1_study_sites.png*.
+
+*2_descriptive_openair_plots.R*: Uses functions from the openair package to create descriptive plots from the aggregated county and province level datasets. Output: *3_results/2_county_level_timePlot_weekly.pdf, 2_province_level_timePlot_weekly.pdf*.
+
+*3_descriptive_village_map_panel.R*: Creates map plots at village-level for each county showing mean PM<sub>2.5</sub> concentrations per day. The datasets for this plot are saved in the *Aggregated_data/village_level* directory. Output: *3_results/3_village_map_panel_complete.png*. 
+
+*4_gganimate_village_level.R*: Creates map plot animations at village-level for each county showing mean PM<sub>2.5</sub> concentrations per day. Output: *3_results/ 'all files starting with 4_'*.
+
+### 3.4 Trend Analysis
+
+The 2_analysis directory contains the following scripts.
+
+*5_trend_analysis.R*: SmoothTrend function from the openair package to visually assess PM<sub>2.5</sub> trends and 95% confidence intervals. TheilSen function from the openair package to calculate Theil-Sen estimates of the PM<sub>2.5</sub> trends. Analysis was repeated where data was deseasoned to show the effect of seasons on the trends. Output: *3_results/ 'all files starting with 5_'*.
+
+### 3.5 Difference in Differences (DID) Test
+
+The 2_analysis directory contains the following scripts.
+
+*6_DID_test.R*: A DID test was conducted in order to determine whether the coal-to-electricity policy changed PM<sub>2.5</sub> concentrations significantly after implementation. From a given list of self-collected policy implementation dates for each village, most of the policy implementation status' were unknown. Only the Shaanxi province had enough villages for the tests. A total of 4 DID tests were done for each year the policy was implemented: 22 villages had the policy implemented in 2017, 4 villages had the policy implemented in 2018, 22 villages had the policy implemented in 2019 and 4 villages had the policy implemented in 2020. There were 15 villages in which the policy was confirmed as not being implemented across all years so these were used as the control in the DID tests. Output: *3_results/6_DID_test_results_table.png*.
 
 ----------------------------------------------------------------------------
 
+## 4. Conclusions
 
+Figures and results are within the 3_results directory. 
 
-
-
-
-
-
-
-
-
-
-
-
+- This daily, 1km by 1km dataset is able to demonstrate heterogeneity in PM<sub>2.5</sub> concentrations at village level (*3_village_map_panel_complete.png*).
+- The rates of decrease in the provinces range from -6.84 to -9.24 μg/<sup>m</sup> % every year from 2015 to 2020 and are statistically significant in every province and county (*5_TheilSen_results_table.png*).
+- Winter has the highest PM<sub>2.5</sub> concentrations (*2_province_level_timePlot_weekly.pdf*).
+- The coal-to-electricity policy did not appear to have a statistically significant effect on PM<sub>2.5</sub> concentrations (*6_DID_test_results_table.png*).
 
 
 
