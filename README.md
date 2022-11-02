@@ -22,7 +22,7 @@
 3.4 Trend Analysis
 3.5 Difference in Differences (DID) Test
 
-**4. Conclusions**  
+**4. Results and Conclusions**  
 
 ----------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ Chinese government: 75μg/m<sup>3</sup>
 
 ### 1.3 Salt Substitute and Stroke Study (SSaSS)
 
-The Salt Substitute and Stroke Study (SSaSS) is a randomised controlled trial being conducted in China. Half of just under 21,000 participants are given a reduced sodium, added potassium salt substitute intervention while the other half continue with usual care. The participants are from 5 different provinces in China: Hebei, Liaoning, Shanxi, Shaanxi and the Ningxia autonomous region which is equivalent to province level. Within each province, 2 counties were selected and within each county, approximately 60 villages were selected for the SSaSS study. These areas were chosen based on having a high prevalence of hypertension and stroke, willingness to participate and being representative socioeconomically of the province. The study sites can be seen in *3_results/1_study_sites.png*.
+The Salt Substitute and Stroke Study (SSaSS) is a randomised controlled trial being conducted in China. Half of just under 21,000 participants are given a reduced sodium, added potassium salt substitute intervention while the other half continue with usual care. The participants are from 5 different provinces in China: Hebei, Liaoning, Shanxi, Shaanxi and the Ningxia autonomous region which is equivalent to province level. Within each province, 2 counties were selected and within each county, approximately 60 villages were selected for the SSaSS study. These areas were chosen based on having a high prevalence of hypertension and stroke, willingness to participate and being representative socioeconomically of the province. The study sites can be seen below.
 ![Study sites](/3_results/1_study_sites.png)
 
 ### 1.4 Coal-to-Electricity Policy
@@ -115,14 +115,25 @@ The 2_analysis directory contains the following scripts.
 
 ----------------------------------------------------------------------------
 
-## 4. Conclusions
+## 4. Results and Conclusions
 
 Figures and results are within the 3_results directory. 
 
-- This daily, 1km by 1km dataset is able to demonstrate heterogeneity in PM<sub>2.5</sub> concentrations at village level (*3_village_map_panel_complete.png*).
-- The rates of decrease in the provinces range from -6.84 to -9.24 μg/<sup>m</sup> % every year from 2015 to 2020 and are statistically significant in every province and county (*5_TheilSen_results_table.png*).
-- Winter has the highest PM<sub>2.5</sub> concentrations (*2_province_level_timePlot_weekly.pdf*).
-- The coal-to-electricity policy did not appear to have a statistically significant effect on PM<sub>2.5</sub> concentrations (*6_DID_test_results_table.png*).
+- This daily, 1km by 1km dataset is able to demonstrate heterogeneity in PM<sub>2.5</sub> concentrations at village level.
+![Village map panel](/3_results/3_village_map_panel_complete.png)
+![Hebei Anguo animation](/3_results/4_hebei_anguo_2015_2020.gif)
+
+- Winter has the highest PM<sub>2.5</sub> concentrations.
+![Province timePlot](/3_results/2_province_level_timePlot_weekly.pdf)
+
+- PM<sub>2.5</sub> trends have been decreasing across all provinces from 2015 to 2020.
+![Province smoothTrends](/3_results/5_province_level_smoothTrend_monthly.pdf)
+
+- The rates of decrease in the provinces range from -6.84 to -9.24 μg/<sup>m</sup> % every year from 2015 to 2020 and are statistically significant in every province and county.
+![TheilSen results](/3_results/5_TheilSen_results_table.png)
+
+- The coal-to-electricity policy did not appear to have a statistically significant effect on PM<sub>2.5</sub> concentrations.
+![DID test results](/3_results/6_DID_test_results_table.png)
 
 
 
