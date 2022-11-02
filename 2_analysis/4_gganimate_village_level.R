@@ -75,7 +75,7 @@ end <- Sys.time()
 
 print(end-start) #Time difference of 51.42976 mins
 
-anim_save("4_zhangwu_liaoning_2015_2020.gif", zhangwu_ggplot_animated)
+anim_save("4_liaoning_zhangwu_2015_2020.gif", zhangwu_ggplot_animated)
 
 
 # zhangwu_fengcheng --------------------------------------------------------
@@ -138,7 +138,7 @@ end <- Sys.time()
 
 print(end-start)
 
-anim_save("4_zhangwu_fengcheng_2015_2020.gif", zhangwu_ggplot_animated)
+anim_save("4_liaoning_fengcheng_2015_2020.gif", zhangwu_ggplot_animated)
 
 # hebei_anguo --------------------------------------------------------
 #load the shapefile made from 3_descriptive_village_map_panel
