@@ -119,7 +119,7 @@ hebei_province_level_shp <- hebei_2_counties %>%
   nest()
 
 #save new shapefile
-setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
 sf::st_write(hebei_province_level_shp, "hebei.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
 
 #intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
@@ -257,7 +257,7 @@ liaoning_province_level_shp <- liaoning_2_counties %>%
   nest()
 
 #save new shapefile
-setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
 sf::st_write(liaoning_province_level_shp, "liaoning.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
 
 #intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
@@ -396,7 +396,7 @@ ningxia_province_level_shp <- ningxia_2_counties %>%
   nest()
 
 #save new shapefile
-setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
 sf::st_write(ningxia_province_level_shp, "ningxia.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
 
 #intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
@@ -534,7 +534,7 @@ shanxi_province_level_shp <- shanxi_2_counties %>%
   nest()
 
 #save new shapefile
-setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
 sf::st_write(shanxi_province_level_shp, "shanxi.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
 
 #intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
@@ -672,7 +672,7 @@ shaanxi_province_level_shp <- shaanxi_2_counties %>%
   nest()
 
 #save new shapefile
-setwd("/rds/general/user/syl416/home/MScProject/Shapefile/Map_CAS_county")
+setwd("/rds/general/user/syl416/home/MSc_project/Shapefile/Map_CAS_county")
 sf::st_write(shaanxi_province_level_shp, "shaanxi.shp", layer_options = "ENCODING=UTF-8", append=FALSE) 
 
 #intersect data and the new shapefile to make a province-level dataset with only the 2 counties of interest in
