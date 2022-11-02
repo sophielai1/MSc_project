@@ -124,10 +124,10 @@ Figures and results are within the 3_results directory.
 ![Hebei Anguo animation](/3_results/4_hebei_anguo_2015_2020.gif)
 
 - Winter has the highest PM<sub>2.5</sub> concentrations.
-![Province timePlot](/3_results/2_province_level_timePlot_weekly.pdf)
+![Province timePlot](/3_results/2_province_level_timePlot_weekly.png)
 
 - PM<sub>2.5</sub> trends have been decreasing across all provinces from 2015 to 2020.
-![Province smoothTrends](/3_results/5_province_level_smoothTrend_monthly.pdf)
+![Province smoothTrends](/3_results/5_province_level_smoothTrend_monthly.png)
 
 - The rates of decrease in the provinces range from -6.84 to -9.24 μg/<sup>m</sup> % every year from 2015 to 2020 and are statistically significant in every province and county.
 ![TheilSen results](/3_results/5_TheilSen_results_table.png)
