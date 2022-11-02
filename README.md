@@ -73,14 +73,28 @@ The data was from a database called [Tracking Air Polltuion in China (TAP)](http
 
 *3_convert_day_to_date.R*: Use the extracted year and day columns to create a date column in yyyy-mm-dd format. These final datasets now contain PM<sub>2.5</sub> concentrations, GridID, year, day, TileID, longitude, latitude and date.
 
-*4_subset_province.R*: Subset the datasets into provinces using GridIDs and create a sample of 1000 rows of each dataset to test future code on. Further subset the province data by intersecting with the province shapefiles. The final province datasets will include PM<sub>2.5</sub> measurements within the 2 counties of each province selected for the study.
+*4_subset_province.R*: Subset the datasets into provinces using GridIDs and create a sample of 1000 rows of each dataset to test future code on. Further subsets the province data by intersecting with the province shapefiles to create a smaller, more accurate province-level dataset to work with later. The final province datasets will include all PM<sub>2.5</sub> measurements within the 120 villages from each province selected for the study, these are created in a later stage.
 
-# still need to do the below
-*5_subset_county.R*: 
-The final county datasets will include PM<sub>2.5</sub> measurements within approximately 60 villages of each county selected for the study.
+*5_create_village_level_datasets.R*: Use a csv file of the names of villages (approximately 60 per county) selected from each province and county for the study to extract the shapefile polygon of the same village name and intersect it with the PM2.5 data. This creates a dataset for each of the 600 villages in the study. The PM2.5 data was first subset from province into county so it would be easier to work with and to avoid villages of the same name but in a different county being selected. Challenges faced in this step: Village names for each county were checked for duplicates and in the case of duplicates, village locations were checked visually by plotting them and the village closest to the coordinates found on Google maps was selected. Some villages had no PM<sub>2.5</sub> data associated with them (a total of 8 villages). Some villages did not have a corresponding village polygon of the same name in the shapefiles (a total of 14 villages). This left a total of 578 villages with PM<sub>2.5</sub> data associated with them. Reasons for this could include language factors, such as there being traditional and simplified Chinese characters, local dialects, some villages having very similar names, people from different areas of China may refer to the same village by different names and administrative boundaries as well as the names of the areas may change.
+
+*6_create_county_level_datasets.R*: Combine all village-level data for villages within each county. Aggregate the data by taking the daily and weekly mean PM<sub>2.5</sub> across all villages in each county. These datasets are saved in the Aggregated_data/county_level directory.
+
+*7_create_province_level_datasets.R*: Combine all village-level data for villages within each province. Aggregate the data by taking the daily and weekly mean PM<sub>2.5</sub> across all villages in each province. These datasets are saved in the Aggregated_data/province_level directory.
+
+
 ### 
 
 ----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
 
 
 
