@@ -43,6 +43,7 @@ Chinese government: 75μg/m<sup>3</sup>
 ### 1.3 Salt Substitute and Stroke Study (SSaSS)
 
 The Salt Substitute and Stroke Study (SSaSS) is a randomised controlled trial being conducted in China. Half of just under 21,000 participants are given a reduced sodium, added potassium salt substitute intervention while the other half continue with usual care. The participants are from 5 different provinces in China: Hebei, Liaoning, Shanxi, Shaanxi and the Ningxia autonomous region which is equivalent to province level. Within each province, 2 counties were selected and within each county, approximately 60 villages were selected for the SSaSS study. These areas were chosen based on having a high prevalence of hypertension and stroke, willingness to participate and being representative socioeconomically of the province. The study sites can be seen in *3_results/1_study_sites.png*.
+![Study sites](/3_results/1_study_sites.png)
 
 ### 1.4 Coal-to-Electricity Policy
 
