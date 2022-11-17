@@ -17,16 +17,16 @@
 
 **3. Methods and Script Definitions**  
 3.1 PM<sub>2.5</sub> Data Source  
-3.2 Data Pre-Processing 
-3.3 Descriptive Analysis
-3.4 Trend Analysis
-3.5 Difference in Differences (DID) Test
+3.2 Data Pre-Processing   
+3.3 Descriptive Analysis  
+3.4 Trend Analysis  
+3.5 Difference in Differences (DID) Test  
 
 **4. Results**  
 
 **5. Discussion**  
-5.1 Limitations
-5.2 Implications for Future Research
+5.1 Limitations  
+5.2 Implications for Future Research  
 
 ----------------------------------------------------------------------------
 
