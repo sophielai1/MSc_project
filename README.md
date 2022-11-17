@@ -22,7 +22,11 @@
 3.4 Trend Analysis
 3.5 Difference in Differences (DID) Test
 
-**4. Results and Conclusions**  
+**4. Results**  
+
+**5. Discussion**  
+5.1 Limitations
+5.2 Implications for Future Research
 
 ----------------------------------------------------------------------------
 
@@ -115,7 +119,7 @@ The 2_analysis directory contains the following scripts.
 
 ----------------------------------------------------------------------------
 
-## 4. Results and Conclusions
+## 4. Results
 
 Figures and results are within the 3_results directory. 
 
@@ -134,6 +138,23 @@ Figures and results are within the 3_results directory.
 
 - The coal-to-electricity policy did not appear to have a statistically significant effect on PM<sub>2.5</sub> concentrations.
 ![DID test results](/3_results/6_DID_test_results_table.png)
+
+----------------------------------------------------------------------------
+
+## 5. Discussion
+
+### 5.1 Limitations  
+- Lag effects from other major air pollution policies introduced prior to the coal-to-electricity policy  
+- Lack of precision in coal-to-electricity policy implementation dates: these were given as a year but the exact date of implementation was unknown and it may take some time for the policy to be fully implemented  
+- Bias in policy implementation status for villages: the status of the policy implementation was unknown for most villages. Local governments may have different reasons for publishing the policy implementation status.  
+- Small sample sizes for the DID tests  
+- Possible misclassification of village names  
+- Data limitations: the PM<sub>2.5</sub> concentrations are predicted - there are fewer monitoring stations in rural areas which may affect the predicted concentrations in rural areas. The effects of the COVID-19 pandemic were not taken into account in the PM<sub>2.5</sub> concentration predictions.  
+
+### 5.2 Implications for Future Research
+- Gaining insights into air pollution in rural areas in China, where there is currently limited research   
+- Can be used with health data (e.g. stroke data) to investigate the association between PM<sub>2.5</sub> exposure and disease incidence. As a result of the fine resolution of data used, daily temporal resolution and 1km by 1km spatial resolution, there should be minimal exposure misclassification.
+
 
 
 
